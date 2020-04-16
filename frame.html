@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>HTML5 Web Page Layout</title>
+<style>
+    body {
+        margin: 0px;
+        width: 25%;
+    }
+    header {
+        padding: 10px 20px;
+        background: red; 
+    }
+    header h1 {
+        font-size: 24px;
+    }
+    .container {
+        width: 100%;  
+    }
+    nav, section {
+        float: left; 
+        padding: 20px;
+        min-height: 170px;
+        box-sizing: border-box;
+    }
+    section {
+        width: 80%;
+        background-color: cyan;
+    }
+    nav {
+        width: 20%;             
+        background:tan;
+    }    
+    nav ul {
+        list-style: none; 
+        line-height: 24px;
+        padding: 0px; 
+    }
+    nav ul li a {
+        color: red;
+    }
+    footer {
+        background: red;            
+        text-align: center;
+        padding: 5px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Web Knowledge</h1>
+        </header>
+        <div class="wrapper">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <section>
+                <h2>Welcome to our Channel</h2>
+                <p>You will Definitely learn how to create websites...</p>
+            </section>
+        </div>
+        <footer>
+            <p>copyright &copy; web knowledge</p>
+        </footer>
+    </div>
+</body>
+</html>
